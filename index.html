@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>PIK Chat</title>
+
+    <meta
+      name="description"
+      content="A framework for easily creating beautiful presentations using HTML"
+    />
+    <meta name="author" content="Hakim El Hattab" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" id="theme" />
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
+
+  <body>
+    <div class="reveal">
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+        <section>
+          <h2>PIK chat</h2>
+          <p>
+            <small
+              >Created by
+              <a href="https://github.com/h1stil" target="_blank">Ilmir</a>,
+              <a href="https://github.com/istairina" target="_blank">Irina</a>
+              and
+              <a href="https://github.com/Andrey78945" target="_blank"
+                >Andrey</a
+              >
+            </small>
+          </p>
+        </section>
+
+        <section>
+          <h4>Первый митинг</h4>
+          <br />
+          <br />
+          <img src="./assets/init.JPG" alt="init" />
+        </section>
+
+        <section>
+          <h4>Стек технологий</h4>
+          <section>
+            <h5>Frontend</h5>
+            <ul>
+              <li>TypeScript</li>
+              <li>React</li>
+              <li>React Router</li>
+              <li>ESLint</li>
+              <li>Ant Design</li>
+              <li>SASS</li>
+            </ul>
+          </section>
+          <section>
+            <h5>Backend</h5>
+            <ul>
+              <li>TypeScript</li>
+              <li>Nest.js</li>
+              <li>Swagger</li>
+              <li>PostgreSQL</li>
+              <li>pgAdmin</li>
+              <li>Socket.IO</li>
+              <li>JWT</li>
+            </ul>
+          </section>
+          <section>
+            <p>Технологии, задействованные в процессе разработки</p>
+            <ul>
+              <li>Axios</li>
+              <li>React-i18next</li>
+              <li>JWT-decode</li>
+              <li>Flag-icons</li>
+              <li>Redux</li>
+              <li>Prettier</li>
+            </ul>
+          </section>
+        </section>
+
+        <section>
+          <h4>Организация командной работы</h4>
+          <section>
+            <h5>RACI Matrix</h5>
+            <img src="./assets/raci.JPG" alt="Down arrow" />
+          </section>
+          <section>
+            <h5>Kanban board</h5>
+            <img src="./assets/board.jpg" alt="board" />
+          </section>
+          <section>
+            <p>История коммитов</p>
+            <div class="r-stack">
+              <img class="fragment" src="./assets/commit-fe.jpg" height="550" />
+              <img class="fragment" src="./assets/commit-be.jpg" height="550" />
+            </div>
+          </section>
+          <section>
+            <p>Pull requests</p>
+            <div class="r-stack">
+              <img
+                class="fragment"
+                src="./assets/pr.PNG"
+                alt="pull request"
+                height="500"
+              />
+              <img class="fragment" src="./assets/pr-discord.PNG" />
+            </div>
+          </section>
+        </section>
+
+        <section>
+          <h2>Спасибо за внимание!</h2>
+        </section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/zoom/zoom.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/search/search.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // Also available as an ES module, see:
+      // https://revealjs.com/initialization/
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        center: true,
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [
+          RevealZoom,
+          RevealNotes,
+          RevealSearch,
+          RevealMarkdown,
+          RevealHighlight,
+        ],
+      });
+    </script>
+  </body>
+</html>
